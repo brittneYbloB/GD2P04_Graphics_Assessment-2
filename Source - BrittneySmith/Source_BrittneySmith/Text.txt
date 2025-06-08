@@ -1,0 +1,25 @@
+#version 460 core
+
+// Vertex Shader Inputs
+in vec2 FragTexCoords;
+
+// Uniform Inputs
+uniform sampler2D ImageTexture;
+uniform float Time; // sec
+
+// Output
+out vec4 FinalColor;
+
+const float SPRITE_COLUMNS = 8.0f;
+const float SPRITE_ROWS = 1.0f;
+const uint NUM_OF_SPRITES = 8;
+
+void main() 
+{
+    uint sprite_idx = int(Time * 20) % NUM_OF_SPRITES;
+
+    vec2 pos = vec2(sprite_idx % int(SPRITE_COLUMNS), int(sprite_idx / SPRITE_COLUMNS));
+
+    FinalColor = texture(ImageTexture, vec2((FragTexCoords.x / SPRITE_COLUMNS) + pos.x * (1.0 / SPRITE_COLUMNS),
+        (FragTexCoords.y / SPRITE_ROWS) + pos.y * (1.0 / SPRITE_ROWS)));
+}

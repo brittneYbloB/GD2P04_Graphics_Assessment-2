@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{eee3e4e4-2475-4e51-a886-a1cd0d10d623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PerlinNoise">
+      <UniqueIdentifier>{9bf082b8-b725-4520-bdbc-db74880c6ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models/Meshes">
+      <UniqueIdentifier>{1779ba63-f709-4f45-91cf-bd2efd7a8b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers/Loaders">
+      <UniqueIdentifier>{07739feb-d0e7-4551-8c92-0ac4cd1aad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\TesselationShaders">
+      <UniqueIdentifier>{ba4fa382-44d8-4f7e-aceb-54ed35de56ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\GeometryShaders">
+      <UniqueIdentifier>{7f991e5d-4ef5-472a-8bf4-de3e0b8e4820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Lighting">
+      <UniqueIdentifier>{24e897b4-c0ac-466a-b6c6-6934943004e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Effects">
+      <UniqueIdentifier>{ae386992-ada3-4fae-93a3-2ecf7ef94f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Skybox">
+      <UniqueIdentifier>{88a215c1-0023-4d2d-b7ab-10463f073938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Text">
+      <UniqueIdentifier>{5c0895be-00e2-4646-ad79-9dbd75356f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Misc">
+      <UniqueIdentifier>{adfa7c99-03a5-43a7-be84-9d27694bfe93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HeightMap&amp;SkyBox">
+      <UniqueIdentifier>{08f63ca3-4586-45c7-80cc-8cd191e044bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\PostProcessing">
+      <UniqueIdentifier>{f52bdc98-110b-4a80-97c4-0d945b855c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Meshes/Objects">
+      <UniqueIdentifier>{7673b2b2-4a30-425b-b23e-eedf869b9aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{4565f5cd-c6f8-485b-99f6-62b02b938cb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPerlinNoise.cpp">
+      <Filter>Source Files\PerlinNoise</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshCube.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelLoading.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelMesh.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuad.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSphere.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeightMap.cpp">
+      <Filter>Source Files\HeightMap&amp;SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkyBox.cpp">
+      <Filter>Source Files\HeightMap&amp;SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightManager.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderLoader.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureLoader.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture3D.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CPointsMesh.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuadPatchTessellationMesh.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrianglePatchTessellationMesh.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeightmapTessellation.cpp">
+      <Filter>Source Files\HeightMap&amp;SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CFramebuffer.cpp">
+      <Filter>Source Files\Managers/Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuadFromTrianglePatch.cpp">
+      <Filter>Source Files\Models/Meshes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHeightMap.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeightmapTessellation.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshCube.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelMesh.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectBase3D.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPointsMesh.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuad.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuadFromTrianglePatch.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuadPatchTessellationMesh.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkyBox.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CSphere.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrianglePatchTessellationMesh.h">
+      <Filter>Header Files\Meshes/Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CFramebuffer.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelLoading.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPerlinNoise.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderLoader.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture3D.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureLoader.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\TCS_QuadPatch.tcs">
+      <Filter>Resource Files\Shaders\TesselationShaders</Filter>
+    </None>
+    <None Include="Shaders\TCS_TrianglePatch.tcs">
+      <Filter>Resource Files\Shaders\TesselationShaders</Filter>
+    </None>
+    <None Include="Shaders\TES_QuadPatch.tes">
+      <Filter>Resource Files\Shaders\TesselationShaders</Filter>
+    </None>
+    <None Include="Shaders\TES_TrianglePatch.tes">
+      <Filter>Resource Files\Shaders\TesselationShaders</Filter>
+    </None>
+    <None Include="Shaders\TessellationVS.vs">
+      <Filter>Resource Files\Shaders\TesselationShaders</Filter>
+    </None>
+    <None Include="Shaders\Triangle.geo">
+      <Filter>Resource Files\Shaders\GeometryShaders</Filter>
+    </None>
+    <None Include="Shaders\GeoVertex.vert">
+      <Filter>Resource Files\Shaders\GeometryShaders</Filter>
+    </None>
+    <None Include="Shaders\3DLight_BlinnPhong.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\3DLight_BlinnPhongRim.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\3DLight_Gouraud.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\3DLight_Phong.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\3DLight_Point.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\CombinedLighting.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\DirectionalLight.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\Gouraud.vs">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\MultipleLights.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\Fog.frag">
+      <Filter>Resource Files\Shaders\Effects</Filter>
+    </None>
+    <None Include="Shaders\Reflection.frag">
+      <Filter>Resource Files\Shaders\Effects</Filter>
+    </None>
+    <None Include="Shaders\SkyboxFog.frag">
+      <Filter>Resource Files\Shaders\Effects</Filter>
+    </None>
+    <None Include="Shaders\SkyBox.frag">
+      <Filter>Resource Files\Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\SkyBox.vs">
+      <Filter>Resource Files\Shaders\Skybox</Filter>
+    </None>
+    <None Include="Text.frag">
+      <Filter>Resource Files\Shaders\Text</Filter>
+    </None>
+    <None Include="Text.vs">
+      <Filter>Resource Files\Shaders\Text</Filter>
+    </None>
+    <None Include="Shaders\LitHeightmap.frag">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\LightSourceObject.vs">
+      <Filter>Resource Files\Shaders\Lighting</Filter>
+    </None>
+    <None Include="Shaders\2DShape.vs">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\3D_Normal.vs">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\3DObject.vs">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\ClipSpace.vs">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\FixedColor.frag">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\HexagonTexture.frag">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\StaticTexture.frag">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\Texture3D.frag">
+      <Filter>Resource Files\Shaders\Misc</Filter>
+    </None>
+    <None Include="Shaders\InvertColor.frag">
+      <Filter>Resource Files\Shaders\PostProcessing</Filter>
+    </None>
+    <None Include="Shaders\Greyscale.frag">
+      <Filter>Resource Files\Shaders\PostProcessing</Filter>
+    </None>
+    <None Include="Shaders\RainingOnYourScreen.frag">
+      <Filter>Resource Files\Shaders\PostProcessing</Filter>
+    </None>
+    <None Include="Shaders\TV_CRT_Pixels.frag">
+      <Filter>Resource Files\Shaders\PostProcessing</Filter>
+    </None>
+    <None Include="Shaders\GeoVertexShowingNormals.vert">
+      <Filter>Resource Files\Shaders\GeometryShaders</Filter>
+    </None>
+    <None Include="Shaders\TriangleShowingNormals.geo">
+      <Filter>Resource Files\Shaders\GeometryShaders</Filter>
+    </None>
+    <None Include="Shaders\TriangleExplosionEffect.geo">
+      <Filter>Resource Files\Shaders\GeometryShaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

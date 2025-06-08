@@ -1,0 +1,34 @@
+#version 460 core
+
+layout (triangles, equal_spacing, ccw) in;
+
+uniform mat4 PVMMatrix;
+
+in vec2 FragTextureCoords[];
+out vec2 FragTexCoords;
+
+
+vec2 interpolate2D(vec2 v0, vec2 v1, vec2 v2)
+{
+	float u = gl_TessCoord.x;
+	float v = gl_TessCoord.y;
+	float w = gl_TessCoord.z;
+
+    return u * v0 + v * v1 + w * v2;
+}
+
+void main()
+{
+    float u = gl_TessCoord.x;
+	float v = gl_TessCoord.y;
+	float w = gl_TessCoord.z;
+
+	vec4 pos0 = gl_in[0].gl_Position;
+	vec4 pos1 = gl_in[1].gl_Position;
+	vec4 pos2 = gl_in[2].gl_Position;
+
+	vec4 pos = u * pos0 + v * pos1 + w * pos2;
+
+	gl_Position = PVMMatrix * pos;
+	FragTexCoords = interpolate2D(FragTextureCoords[0], FragTextureCoords[1], FragTextureCoords[2]);
+}
